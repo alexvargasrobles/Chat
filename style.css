@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+}
+.columna-izq{
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    display: flex;
+    border-radius: 50%;
+}
+
+.foto-perfil{
+    border-radius: 50%;
+}
+
+.nuevo-chat{
+    padding: 3rem;
+    color: #fff;
+    background-color: #A491d2;
+}

@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: "roboto", sans-serif;
     display: flex;
-    height: 100vh;  
+    min-height: 100vh;  
 }
 
 .columna-izq{
@@ -11,6 +11,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .user{
     display: flex;
@@ -21,9 +24,19 @@ body{
     align-items: center;
 }
 
+
+.nombre-user{
+    margin: 5px;
+}
+
 .foto-perfil{
     border-radius: 50%;
-    padding: 20px;
+    padding: 10px;
+}
+
+.icons{
+    display: flex;
+    padding: 10px;
 }
 
 .nuevo-chat{
@@ -31,6 +44,7 @@ body{
     justify-content: center;
     border: 1px solid;
     border-color: #828485;
+    cursor: pointer;
 }
 
 .boton-chat{
@@ -51,4 +65,5 @@ body{
     text-align: center;
     justify-content: center;
     width: 100%;
+    align-items: stretch;
     }

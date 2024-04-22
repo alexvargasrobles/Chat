@@ -2,27 +2,53 @@ body{
     margin: 0;
     font-family: "roboto", sans-serif;
     display: flex;
-    height: 100vh;
+    height: 100vh;  
 }
 
-.principal{
-    display: flex;
-}
 .columna-izq{
-    display: flex;
     flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
 }
+
 .user{
     display: flex;
-    border-radius: 50%;
+    border: 1px solid;
+    border-color: #828485;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .foto-perfil{
     border-radius: 50%;
+    padding: 20px;
 }
 
 .nuevo-chat{
-    padding: 3rem;
+    padding:20px;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #828485;
+}
+
+.boton-chat{
     color: #fff;
     background-color: #A491d2;
+    text-align: center;
+    padding: 0.8em 0;;
 }
+
+.chat{
+    display: flex;
+    border: 1px solid #828485;
+}
+
+.columna-der{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    }
